@@ -30,7 +30,7 @@ public class Main extends JFrame implements ActionListener {
 		panel = new JPanel();
 		panel.setPreferredSize(new Dimension(600, 400));
 		window.add(panel);
-		button1 = new JButton("Klik niet op mij!");
+		button1 = new JButton("Teken watermolecuul");
 		window.add(button1);
 		button1.addActionListener(this);
 		TextField1 = new JTextField("x",10);
